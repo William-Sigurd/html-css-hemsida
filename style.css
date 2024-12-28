@@ -1,0 +1,211 @@
+@media (max-width: 650px) {
+  #portfolio > .portfolio-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    max-width: 100% !important;
+    background-color: blue;
+    padding: 40px;
+    border-radius: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: none;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: "Oswald", sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+  color: black;
+}
+
+body > div {
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+/* Hero */
+
+#hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-hero {
+  max-width: 200px;
+}
+
+/* Resume */
+
+#resume h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.resume-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 60px;
+  column-gap: 20px;
+}
+
+.resume-div > div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  row-gap: 15px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+/* Portfolio */
+
+#portfolio {
+  display: grid;
+  justify-content: center;
+}
+
+#portfolio h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+#portfolio > .portfolio-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 600px;
+  background-color: #ddd;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.portfolio-div div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+/* About me */
+
+#about-me {
+  display: flex;
+  background-color: lightblue;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.about-me-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  row-gap: 20px;
+}
+
+.about-me-div p {
+  text-align: center;
+  max-width: 500px;
+}
+
+/* Kontakta mig */
+
+#contact-me {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-me-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.contact-me-div > div {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  background-color: #ddd;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100vw;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Knappar */
+
+.button {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: lightgrey;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+.button-link {
+    text-decoration: none;
+    color: black;
+}
